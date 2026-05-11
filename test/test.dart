@@ -12,7 +12,14 @@ class _TestWidgetState extends State<TestWidget> {
       SingleChildScrollView(
         controller: controller,
         child: Column(
-          
+          children: List.generate(
+            100,
+            (index) => Container(
+              height: 50,
+              color: index % 2 == 0 ? Colors.blue : Colors.green,
+              child: Center(child: Text('Item $index')),
+            ),
+          ),
         ),
       ),
     );
