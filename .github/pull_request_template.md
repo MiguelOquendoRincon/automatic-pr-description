@@ -42,13 +42,7 @@
 - [ ] Commit convention followed (`type(scope): description`)
 - [ ] Relative imports reviewed and cleaned up
 
-### 🏗️ Architecture
-- [ ] Architecture respected (Domain / Infrastructure / Presentation)
-- [ ] No cross-layer violations introduced
-- [ ] New files placed in the correct layer/module
-
-### 📋 Documentation & Stories
-- [ ] Feature changes documented (inline comments, README, or Confluence)
+### 📋 Stories & Testing
 - [ ] User Story Acceptance Criteria tested
 - [ ] Internal Excel Test Cases passed
 
